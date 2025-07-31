@@ -179,7 +179,7 @@
                     <child>
                       <object class="GtkFrame" id="buttons_frame">
                         <property name="name">buttons_frame</property>
-                        <property name="visible">True</property>
+                        <property name="visible">False</property>
                         <property name="can_focus">False</property>
                         <property name="label_xalign">0.039999999105930328</property>
                         <property name="shadow_type">in</property>
@@ -370,7 +370,7 @@
                                   <object class="GtkButton" id="youtube_button">
                                     <property name="label" translatable="yes">Search on YouTube</property>
                                     <property name="height_request">0</property>
-                                    <property name="visible">True</property>
+                                    <property name="visible">False</property>
                                     <property name="can_focus">True</property>
                                     <property name="receives_default">True</property>
                                     <property name="image">youtube_icon</property>
@@ -385,7 +385,7 @@
                                 <child>
                                   <object class="GtkButton" id="lure_button">
                                     <property name="label" translatable="yes">Play a Shazam lure</property>
-                                    <property name="visible">True</property>
+                                    <property name="visible">False</property>
                                     <property name="can_focus">True</property>
                                     <property name="receives_default">True</property>
                                     <property name="image">lure_icon</property>
@@ -422,7 +422,7 @@
             </child>
             <child>
               <object class="GtkFlowBoxChild" id="fbc2">
-                <property name="visible">True</property>
+                <property name="visible">False</property>
                 <property name="can_focus">False</property>
                 <child>
                   <object class="GtkBox" id="vbox2">
